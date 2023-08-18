@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="AsyncRetry.fs" />
+    <Compile Include="AsyncExtensions.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsToolkit.ErrorHandling" Version="4.9.0" />
   </ItemGroup>
 
 </Project>
